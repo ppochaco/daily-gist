@@ -15,7 +15,7 @@
 ### 1. 프로젝트 클론하기
 
 ```bash
-git clone https://github.com/ppochaco/gist-creator.git
+git clone https://github.com/ppochaco/daily-gist.git
 cd gist-creator
 
 ```
