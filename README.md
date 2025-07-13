@@ -6,9 +6,9 @@
 
 > clone하고 파일 내용을 자유롭게 수정해 사용하세요!!
 
-- [README.md](https://github.com/ppochaco/gist-creator/blob/main/templates/README.md)
-- [나만의체크포인트.md](https://github.com/ppochaco/gist-creator/blob/main/templates/%EB%82%98%EB%A7%8C%EC%9D%98%EC%B2%B4%ED%81%AC%ED%8F%AC%EC%9D%B8%ED%8A%B8.md)
-- [학습정리.md](https://github.com/ppochaco/gist-creator/blob/main/templates/%ED%95%99%EC%8A%B5%EC%A0%95%EB%A6%AC.md)
+- [README.md](https://github.com/ppochaco/daily-gist/blob/main/templates/README.md)
+- [나만의체크포인트.md](https://github.com/ppochaco/daily-gist/blob/main/templates/%EB%82%98%EB%A7%8C%EC%9D%98%EC%B2%B4%ED%81%AC%ED%8F%AC%EC%9D%B8%ED%8A%B8.md)
+- [학습정리.md](https://github.com/ppochaco/daily-gist/blob/main/templates/%ED%95%99%EC%8A%B5%EC%A0%95%EB%A6%AC.md)
 
 ## ⚙️ 초기 설정
 
@@ -82,7 +82,7 @@ npm run daily
 
 | 원하는 위치에서 clone                                                                                                           | 폴더 이동 후 생성된 파일 확인                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="683" height="489" alt="ab" src="https://github.com/user-attachments/assets/48a1f666-55f7-49d5-b2d9-1843126e2622" /> | <img width="683" height="489" alt="Image" src="https://github.com/user-attachments/assets/8280a47f-cc82-4a85-a3a1-b6aca6d4faf4" /> |
+| <img width="683" height="489" alt="ab" src="https://github.com/user-attachments/assets/f6d04cc7-6e25-4513-a72a-fc5f12e89be1" /> | <img width="683" height="489" alt="Image" src="https://github.com/user-attachments/assets/8280a47f-cc82-4a85-a3a1-b6aca6d4faf4" /> |
 
 ## 🙌🏻 Contribute
 
