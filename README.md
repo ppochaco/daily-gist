@@ -52,10 +52,10 @@ USER_ID=유저_아이디
 #### 명령어
 
 ```bash
-npm run daily --<day 숫자>
+npm run daily -- <day 숫자>
 ```
 
-- day 숫자에 `01` 형식으로 입력하면
+- `npm run daily -- 01`을 실행하면,
   Gist description에 `J000 - Day01`가 자동으로 작성됩니다.
 
 #### 실행 결과
@@ -69,7 +69,7 @@ npm run daily --<day 숫자>
 
 | terminal                                                                                                                           | gist                                                                                                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="683" height="489" alt="Image" src="https://github.com/user-attachments/assets/de71bf92-8756-4ac3-8a0c-4de1cb6253ad" /> | <img width="928" height="457" alt="Image" src="https://github.com/user-attachments/assets/4f7aad9f-72dc-4c8f-8308-e4e4c4ed3ba7" /> |
+| <img width="682" height="561" alt="Image" src="https://github.com/user-attachments/assets/ab8d0b9d-422e-46a1-a5b5-2695b96698d1" /> | <img width="930" height="475" alt="Image" src="https://github.com/user-attachments/assets/0330e965-cc20-43bc-86e1-b22c0140687f" /> |
 
 ### 2. URL 복사하기
 
