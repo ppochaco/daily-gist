@@ -5,9 +5,15 @@ import { Octokit } from "@octokit/rest";
 import { readFileSync } from "fs";
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const userId = process.env.USER_ID;
+const day = process.argv[2];
 
 if (!GITHUB_TOKEN) {
   throw Error(".env 파일에서 GITHUB_TOKEN이 설정되지 않았습니다.");
+}
+
+if (!day) {
+  throw new Error("❗️ 사용법: npm run daily -- <day 숫자>");
 }
 
 const TEMPLATES = {
@@ -50,6 +56,7 @@ async function createDailyGist() {
     const files = createGistFiles();
 
     const response = await octokit.gists.create({
+      description: `${userId} - Day${day}`,
       public: false,
       files,
     });
@@ -58,7 +65,7 @@ async function createDailyGist() {
     console.log(`🔗 URL: ${response.data.html_url}`);
   } catch (error) {
     if (error.status === 401) {
-      throw Error("Gihub 토큰이 유효하지 않습니다.");
+      throw Error("Github 토큰이 유효하지 않습니다.");
     }
 
     throw Error(error.message);

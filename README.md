@@ -16,7 +16,7 @@
 
 ```bash
 git clone https://github.com/ppochaco/daily-gist.git
-cd gist-creator
+cd daily-gist
 
 ```
 
@@ -38,9 +38,11 @@ npm install
 ### 4. .env 파일 생성하기
 
 > 토큰은 `ghp`로 시작합니다.
+> 유저 아이디는 CodeSquad에서 사용하는 J000 형식을 입력하면 됩니다.
 
 ```bash
 GITHUB_TOKEN=복사한_토큰
+USER_ID=유저_아이디
 ```
 
 ## 📄 사용법
@@ -50,8 +52,11 @@ GITHUB_TOKEN=복사한_토큰
 #### 명령어
 
 ```bash
-npm run daily
+npm run daily --<day 숫자>
 ```
+
+- day 숫자에 `01` 형식으로 입력하면
+  Gist description에 `J000 - Day01`가 자동으로 작성됩니다.
 
 #### 실행 결과
 
